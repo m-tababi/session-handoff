@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Editor types and tsconfig the engine writes once the plugin loads
+.claude-plugin/types/
+
+# Type-check and build output
+*.tsbuildinfo
+dist/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~

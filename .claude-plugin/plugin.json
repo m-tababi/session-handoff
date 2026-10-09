@@ -1,0 +1,19 @@
+{
+  "name": "session-handoff",
+  "version": "0.1.0",
+  "author": { "name": "Mohamed Tababi" },
+  "description": "Writes a structured session handoff on demand to ~/.claude/handoffs/<project>/ (never into the project), resumes from the newest one, restarts into a fresh conversation with the handoff (pill or /handoff fresh) and hints once when the context fills up.",
+  "license": "MIT",
+  "homepage": "https://github.com/m-tababi/session-handoff",
+  "repository": "https://github.com/m-tababi/session-handoff",
+  "keywords": ["handoff", "session", "resume", "context", "restart", "clear"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "hintThreshold": {
+      "type": "number",
+      "title": "Handoff hint threshold",
+      "description": "Context fill in percent (1-99) at which a one-time hint suggests /handoff. /handoff hint <n> overrides it.",
+      "default": 80
+    }
+  }
+}

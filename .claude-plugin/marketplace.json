@@ -1,0 +1,14 @@
+{
+  "name": "session-handoff",
+  "owner": { "name": "Mohamed Tababi" },
+  "metadata": {
+    "description": "Single-plugin marketplace for session-handoff."
+  },
+  "plugins": [
+    {
+      "name": "session-handoff",
+      "source": "./",
+      "description": "Session handoffs on demand: /handoff writes one, /handoff resume continues from it, and a restart pill or /handoff fresh clears the session and starts over with the handoff."
+    }
+  ]
+}
