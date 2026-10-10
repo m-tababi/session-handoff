@@ -38,7 +38,7 @@ Nothing happens automatically. Handoffs are written only by `/handoff`, by the p
 
 ## Installation
 
-The repository is its own single-plugin marketplace. It is private, so whoever installs it needs read access to `m-tababi/session-handoff` through their git or GitHub credentials.
+The repository is its own single-plugin marketplace.
 
 From a shell:
 
